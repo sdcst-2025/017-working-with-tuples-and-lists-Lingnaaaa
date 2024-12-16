@@ -25,4 +25,6 @@ word not in list
 """
 
 fruit = ["apple","cherry","kiwi","apple","banana","strawberry","kiwi","blueberry","kiwi"]
-
+x = input('Enter a word from the list:')
+fruit.remove(x)
+print(fruit)

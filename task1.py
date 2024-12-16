@@ -24,4 +24,11 @@ The animal at that index is Dog
 
 
 
-animals =
+animals = ['Cat','Fish','Dog','Bear','Turtle']
+
+for i in animals:
+   
+    i=input('Enter a number:')
+    i=int(i)
+    print(animals[i])
+    break
